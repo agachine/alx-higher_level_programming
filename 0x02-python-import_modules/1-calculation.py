@@ -1,4 +1,5 @@
-rom caluclator_1 import add
+#!/usr/bin/python3
+from caluclator_1 import add
 from calculator_1 import sub
 from calculator_1 import mul
 from calculator_1 import div
