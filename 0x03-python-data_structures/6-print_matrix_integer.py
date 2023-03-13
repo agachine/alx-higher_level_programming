@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     if matrix:
-        for i in matrix:
-            print(' '.join(map(str, i)))
+        print('\n'.join([' '.join(['{:d}'.format(item) for item in row]) 
+      for row in matrix]))
