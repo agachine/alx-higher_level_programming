@@ -6,4 +6,4 @@ def no_c(my_string):
             continue
         else:
             new_string.append(i)
-    return ''.join(new_string) 
+    return ''.join(new_string)
